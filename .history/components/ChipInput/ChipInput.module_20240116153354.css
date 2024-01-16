@@ -1,0 +1,42 @@
+/* ChipInput.module.css */
+
+.chipInput {
+  border: 1px solid #ccc; /* Border like a typical input field */
+  padding: 4px; /* Add some padding within the box */
+  border-radius: 4px; /* Optional: round the corners */
+  display: flex; /* Use flexbox for inner alignment */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+  align-items: center; /* Align items vertically */
+  gap: 5px; /* A little gap between chips and input */
+}
+
+.chipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.input {
+  flex-grow: 1; /* Allow the input to fill space */
+  border: none; /* Remove input border */
+  outline: none; /* Remove focus outline */
+  padding: 8px 4px; /* Make it look like a typical input text padding */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.chip {
+  background-color: #e0e0e0; /* A light gray background for chips */
+  border-radius: 16px; /* Rounded corners for chips */
+  padding: 4px 8px; /* Padding inside chips */
+  font-size: .875rem; /* Chip font size */
+  display: flex;
+  align-items: center;
+}
+
+.deleteIcon {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 4px; /* Space between the chip text and delete icon */
+}
